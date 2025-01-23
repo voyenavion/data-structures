@@ -1,0 +1,1 @@
+npx tsc $1 && npx tsx $1
