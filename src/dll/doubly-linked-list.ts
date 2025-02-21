@@ -1,4 +1,3 @@
-// @ts-check
 import Node from "./doubly-linked-node";
 
 export default class DoublyLinkedList {
@@ -151,14 +150,8 @@ export default class DoublyLinkedList {
     return this;
   }
   print() {
-    const fncter = (node) => {
-      if (arr1) {
-        arr1.push(node.val);
-      }
-    };
-
-    let current = this.head;
-    let arr = [];
+    let current: any = this.head;
+    let arr: any[] = [];
     while (current) {
       arr.push(current.val);
       current = current.next;
