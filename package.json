@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "test",
+    "test": "npx vitest",
     "exe": "npx tsx",
     "preexe": "npx tsc",
-    "prettier-format": "npx prettier"
+    "prettier-format": "npx prettier --write ."
   },
   "author": "Shaun Gould",
   "license": "ISC",
