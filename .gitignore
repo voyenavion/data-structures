@@ -1,5 +1,4 @@
-/node_modules
-/.idea
-/.vscode
-/ts-output
-.vite/
+node_modules
+.idea
+.vscode
+ts-output
