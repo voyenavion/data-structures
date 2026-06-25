@@ -10,7 +10,8 @@
     "outDir": "ts-output",
     "rootDir": "src",
     "checkJs": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "strict": false
   },
   "include": ["src"]
 }
